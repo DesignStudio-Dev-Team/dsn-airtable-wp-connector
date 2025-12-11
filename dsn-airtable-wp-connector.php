@@ -22,6 +22,7 @@ require_once DSN_AT_PLUGIN_DIR . 'includes/class-dsn-at-database.php';
 require_once DSN_AT_PLUGIN_DIR . 'includes/class-dsn-at-api.php';
 require_once DSN_AT_PLUGIN_DIR . 'includes/class-dsn-at-admin.php';
 require_once DSN_AT_PLUGIN_DIR . 'includes/class-dsn-at-scheduler.php';
+require_once DSN_AT_PLUGIN_DIR . 'includes/class-dsn-at-updater.php';
 
 // Initialize the plugin
 function dsn_at_init() {
@@ -29,6 +30,11 @@ function dsn_at_init() {
 	$api       = new DSN_AT_API();
 	$admin     = new DSN_AT_Admin( $api, $database );
 	$scheduler = new DSN_AT_Scheduler( $api, $database );
+    
+    // Initialize Updater
+    if ( is_admin() ) {
+        new DSN_AT_Updater();
+    }
 
 	$admin->init();
 	$scheduler->init();

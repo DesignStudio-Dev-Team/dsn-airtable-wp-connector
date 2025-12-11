@@ -1,0 +1,21 @@
+# System files
+.DS_Store
+Thumbs.db
+._*
+
+# Log files
+*.log
+
+# Editor directories
+.idea/
+.vscode/
+*.sublime-*
+
+# Node
+node_modules/
+
+# Mac
+__MACOSX/
+
+# Composer
+vendor/

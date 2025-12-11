@@ -20,6 +20,7 @@ define( 'DSN_AT_PLUGIN_URL', plugin_dir_url( __FILE__ ) );
 // Include necessary files
 require_once DSN_AT_PLUGIN_DIR . 'includes/class-dsn-at-database.php';
 require_once DSN_AT_PLUGIN_DIR . 'includes/class-dsn-at-api.php';
+require_once DSN_AT_PLUGIN_DIR . 'includes/class-dsn-at-api.php';
 require_once DSN_AT_PLUGIN_DIR . 'includes/class-dsn-at-admin.php';
 require_once DSN_AT_PLUGIN_DIR . 'includes/class-dsn-at-scheduler.php';
 require_once DSN_AT_PLUGIN_DIR . 'includes/class-dsn-at-updater.php';

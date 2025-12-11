@@ -12,7 +12,7 @@ Connects to Airtable to fetch product information and store it in a custom local
 
 ## Installation
 
-1.  Download the latest `.zip` from the [Releases](https://github.com/DesignStudioNetwork/dsn-airtable-wp-connector/releases) page.
+1.  Download the latest `.zip` from the [Releases](https://github.com/DesignStudio-Dev-Team/dsn-airtable-wp-connector/releases) page.
 2.  Upload to your WordPress Plugins (`/wp-content/plugins/`).
 3.  Activate the plugin.
 

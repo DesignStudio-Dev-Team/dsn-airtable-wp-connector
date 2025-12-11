@@ -11,8 +11,7 @@ class DSN_AT_Updater {
 	private $cache_key;
 	private $cache_allowed;
 
-	// TODO: Replace with your actual username/repo
-	const GITHUB_USER = 'DesignStudioNetwork';
+	const GITHUB_USER = 'DesignStudio-Dev-Team';
 	const GITHUB_REPO = 'dsn-airtable-wp-connector'; 
 
 	public function __construct() {
